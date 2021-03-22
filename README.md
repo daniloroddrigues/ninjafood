@@ -4,6 +4,8 @@
 npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 
+### Visit link project [vercel](https://ninjafood-xi.vercel.app/)
+
 #### build
 ```
 npm run build-css
