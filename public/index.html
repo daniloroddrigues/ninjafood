@@ -8,18 +8,18 @@
     <link rel="stylesheet" href="style.min.css" />
   </head>
   <body class="text-gray-600 font-body">
-    <div>
+    <div class="grid md:grid-cols-3">
       <!--content-->
-      <div>
+      <div class="md:col-span-1">
         <!--nav-->
         <nav>
           <div>
-            <h1>
+            <h1 class="font-bold uppercase p-4 border-b border-gray-100">
               <a href="/">Food Ninja</a>
             </h1>
           </div>
           <ul>
-            <li>
+            <li class="text-gray-700 font-bold">
               <a href="#"><span>Home</span></a>
             </li>
             <li>
@@ -32,7 +32,7 @@
         </nav>
       </div>
       <!--/nav-->
-      <main class="px-16 py-16 bg-gray-100">
+      <main class="px-16 py-16 bg-gray-100 md:col-span-2">
         <div class="flex justify-end">
           <a href="#" class="text-primary">Log in</a>
           <a href="#" class="text-primary ml-2">Sing in</a>
@@ -44,7 +44,7 @@
         </header>
 
         <div>
-          <h4>Last Recipes</h4>
+          <h4 class="font-bold mt-2 pb-2 border-b border-gray-200">Last Recipes</h4>
 
           <div class="grid lg:grid-cols-3 gap-10">
             <!--cards go here-->
